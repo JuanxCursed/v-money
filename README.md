@@ -107,6 +107,7 @@ Must use `vmodel.lazy` to bind works properly.
 | masked    | false    | Boolean | false                   | If the component output should include the mask or not  |
 | min       | false    | Number  | Number.MIN_SAFE_INTEGER | The min value allowed                                   |
 | max       | false    | Number  | Number.MAX_SAFE_INTEGER | The max value allowed                                   |
+| allowBlank | false    | Boolean | false   | If the field can start blank and be cleared out by user |
 
 ### References
 
