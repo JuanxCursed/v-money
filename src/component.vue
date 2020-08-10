@@ -76,6 +76,9 @@ export default {
   methods: {
     change (evt) {
       this.$emit('input', this.masked ? evt.target.value : unformat(evt.target.value, this.precision))
++   },
++   blur (evt) {
++     this.$emit('blur', evt)
     }
   }
 }
